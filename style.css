@@ -1,0 +1,144 @@
+h1, h2 {
+	text-align:center;
+	font-family: 'Bangers', cursive;
+}
+
+h1 {
+	font-size: 60px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'El Messiri', serif;
+    color: white;
+    background: linear-gradient(90deg, #8DDBE0, #91cb3e);
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-family: "Bangers";
+	font-size: x-large;
+	position: sticky;
+	top: 0px;
+
+}
+
+a:hover {
+background-color: darkgreen;
+
+}
+
+
+button {
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px #19381f;
+	border: none;
+	background-color: #91cb3e;
+	font-size: 15px;
+	color: white;
+	font-family: 'Bangers', cursive;
+	padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+button:hover{
+	color: darkgreen;
+	background-color: lightgrey;
+}
+
+
+ul {
+
+padding-left: 0px;
+
+}
+
+li {
+	margin: 2px;
+}
+
+i {
+	font-size: 50px;
+	color: white;
+
+}
+
+ol {
+list-style-type: none;
+padding-left: 0;
+}
+
+.navbar {
+background: linear-gradient(360deg, #91cb3e, #8DDBE0);
+box-shadow: 10px 10px 25px #19381f;
+padding: 15px;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: baseline;
+align-content: stretch;
+position: sticky;
+top: 0px;
+
+}
+
+.welcome {
+	margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+}
+
+.icons-inline li {
+	display: inline;
+	padding: 15px;
+	text-decoration: none;
+}
+
+i:hover {
+	color: darkgreen;
+	text-decoration: none;
+}
+
+.image-circle {
+border-radius: 50%;
+}
+
+.white-card {
+background: linear-gradient(90deg, #91cb3e, #8DDBE0);
+padding: 15px;
+margin: 15px 30px;
+text-align:center;
+box-shadow: 10px 10px 25px #19381f;
+border-radius:10px;
+}
+
+.white-card ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.white-card ol {
+	list-style-type: none;
+	padding-left: 0px;
+
+}
+
+.container {
+	width: 700px;
+	margin:20px auto;
+}
